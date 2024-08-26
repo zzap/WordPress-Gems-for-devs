@@ -19,5 +19,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 function wpgems_remove_nofollow_internal( $content ) {
 
+	return $content;
 }
 add_filter( 'the_content', 'wpgems_remove_nofollow_internal' );

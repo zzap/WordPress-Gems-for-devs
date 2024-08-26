@@ -1,0 +1,24 @@
+# Ignore everything and unignore only what's needed
+/*
+
+# build files
+node_modules
+
+# project files, wp-content and db directories
+!.gitignore
+!README.md
+!.vscode/
+!wp-content/
+!db/
+
+# wp-content folder
+wp-content/*
+!wp-content/themes/
+!wp-content/plugins/
+
+# Themes folder
+wp-content/themes/*
+!wp-content/themes/twentytwentytwo/
+
+# Plugins folder
+wp-content/plugins/*

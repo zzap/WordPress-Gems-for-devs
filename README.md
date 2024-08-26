@@ -17,3 +17,21 @@ Reference:
 Examples:
 
 - [Table of contents generator](https://github.com/WordPress/gutenberg/issues/61440#issuecomment-2107797038)
+
+## Interactivity API
+
+Docs:
+
+-[Interactivity API Reference](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/)
+
+  - [The Reactive and Declarative mindset](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/core-concepts/the-reactive-and-declarative-mindset/)
+
+    - [List of Directives](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/api-reference/#list-of-directives)
+
+  - [Understanding global state, local context and derived state](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/core-concepts/undestanding-global-state-local-context-and-derived-state/)
+
+    - [The store](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/api-reference/#the-store)
+
+  - [Server-side rendering: Processing directives on the server](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/core-concepts/server-side-rendering/)
+
+    - [Server functions](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/api-reference/#server-functions)

@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "wp-content/themes/twentytwentyfour": true,
+        "wp-content/themes/twentytwentythree": true,
+        "wp-content/themes/*.php": true,
+        "wp-content/uploads": true,
+        "wp-content/upgrade": true,
+        "wp-content/*.php": true,
+        "wp-admin": true,
+        "wp-includes": true,
+        "*.php": true,
+        "*.txt": true,
+        "*.html": true,
+        ".htaccess":true,
+        "LICENSE":true
+    }
+}

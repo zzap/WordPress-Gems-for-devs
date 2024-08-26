@@ -1,0 +1,25 @@
+{
+	"name": "instant-search-interactivity",
+	"version": "1.0.0",
+	"description": "Instant search with interactivity API",
+	"author": "rchrzan",
+	"scripts": {
+		"build": "wp-scripts build --experimental-modules",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start --experimental-modules"
+	},
+	"files": [
+		"[^.]*"
+	],
+	"dependencies": {
+		"@wordpress/interactivity": "^5.1.0"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^27.3.0"
+	},
+	"prettier": "@wordpress/prettier-config"
+}

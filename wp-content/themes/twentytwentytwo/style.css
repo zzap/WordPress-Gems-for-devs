@@ -48,6 +48,11 @@ a:active {
 	text-decoration: none;
 }
 
+a[rel~=nofollow] {
+	background-color: red !important;
+	color: white !important;
+}
+
 .wp-block-navigation .wp-block-navigation-item a:hover,
 .wp-block-navigation .wp-block-navigation-item a:focus {
 	text-decoration: underline;

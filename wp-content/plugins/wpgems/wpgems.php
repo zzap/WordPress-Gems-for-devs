@@ -18,6 +18,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 function wpgems_remove_nofollow_internal( $content ) {
+	// https://developer.wordpress.org/reference/classes/wp_html_tag_processor/
+	$processor = new WP_HTML_Tag_Processor( $content );
+
+	// https://developer.wordpress.org/reference/classes/wp_html_tag_processor/next_tag/
+	while ( $processor->next_tag() ) {
+		// find all internal links with rel="nofollow" and remove rel attribute
+	}
 
 	return $content;
 }

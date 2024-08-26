@@ -3,6 +3,10 @@
  */
 import { store, getContext } from '@wordpress/interactivity';
 
-store( 'wpgems', {
-
+const { state } = store( 'wpgems', {
+	state: {
+		get firstTimeOpened() {
+			return state.timesOpened > 0;
+		}
+	}
 } );

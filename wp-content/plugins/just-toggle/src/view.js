@@ -8,6 +8,7 @@ const { state } = store( 'wpgems', {
 		toggle: () => {
 			const context = getContext();
 			context.isOpen = ! context.isOpen;
+			state.isOpen = context.isOpen;
 		},
 	},
 	callbacks: {

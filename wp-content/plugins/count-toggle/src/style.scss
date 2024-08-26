@@ -14,3 +14,9 @@
 .first-time-opened {
 	background: violet;
 }
+
+.is-open::after {
+	content: ' Opened!!!';
+	display: inline;
+	position: relative;
+}

@@ -15,6 +15,7 @@ $state = wp_interactivity_state(
 	[
 		'timesOpened'     => 0,
 		'firstTimeOpened' => false,
+		'isOpen'          => false,
 	]
 );
 
@@ -24,6 +25,7 @@ $state = wp_interactivity_state(
 	<?php echo get_block_wrapper_attributes(); ?>
 	data-wp-interactive="wpgems"
 	data-wp-class--first-time-opened="state.firstTimeOpened"
+	data-wp-class--is-open="state.isOpen"
 >
 
 	<p>The toggle has been opened <span data-wp-text="state.timesOpened"></span> times.</p>

@@ -24,3 +24,4 @@ wp-content/themes/*
 wp-content/plugins/*
 !wp-content/plugins/instant-search-interactivity/
 !wp-content/plugins/interactive-todos/
+!wp-content/plugins/just-toggle/

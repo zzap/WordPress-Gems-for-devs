@@ -51,6 +51,7 @@ function wpgems_remove_nofollow_internal( $content ) {
 		}
 	}
 
+	// https://developer.wordpress.org/reference/classes/wp_html_tag_processor/get_updated_html/
 	return $processor->get_updated_html();
 }
 add_filter( 'the_content', 'wpgems_remove_nofollow_internal' );

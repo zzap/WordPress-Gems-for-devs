@@ -36,7 +36,11 @@ function wpgems_remove_nofollow_internal( $content ) {
 			 * https://developer.wordpress.org/reference/classes/wp_html_tag_processor/get_attribute/
 			 */
 			$href = $processor->get_attribute( 'href' );
-			if ( str_contains( $href, 'wpgems.loc' ) ) {
+
+			// Get URL host from home URL.
+			$home_url_host = parse_url( get_home_url(), PHP_URL_HOST );
+
+			if ( str_contains( $href, $home_url_host ) ) {
 				/**
 				 * Remove rel attribute
 				 *

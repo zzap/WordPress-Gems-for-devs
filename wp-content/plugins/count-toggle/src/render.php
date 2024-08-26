@@ -10,8 +10,13 @@
  * @see https://github.com/WordPress/gutenberg/blob/trunk/docs/reference-guides/block-api/block-metadata.md#render
  */
 
-// Generate unique id for aria-controls.
-$unique_id = wp_unique_id( 'p-' );
+$state = wp_interactivity_state(
+	'wpgems',
+	[
+		'timesOpened' => 0,
+	]
+);
+
 ?>
 
 <div
@@ -19,5 +24,5 @@ $unique_id = wp_unique_id( 'p-' );
 	data-wp-interactive="wpgems"
 >
 
-	<p>The toggle has been opened x times.</p>
+	<p>The toggle has been opened <span data-wp-text="state.timesOpened"></span> times.</p>
 </div>

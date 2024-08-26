@@ -29,8 +29,16 @@ function wpgems_remove_nofollow_internal( $content ) {
 		 * https://developer.wordpress.org/reference/classes/wp_html_tag_processor/get_tag/
 		 */
 		if ( 'A' === $processor->get_tag() ) {
-			// find all internal links with rel="nofollow" and remove rel attribute
-
+			/**
+			 * Find all href attributes and check if they contain
+			 * our local domain
+			 *
+			 * https://developer.wordpress.org/reference/classes/wp_html_tag_processor/get_attribute/
+			 */
+			$href = $processor->get_attribute( 'href' );
+			if ( str_contains( $href, 'wpgems.loc' ) ) {
+				// remove rel attribute
+			}
 		}
 	}
 

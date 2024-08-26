@@ -37,11 +37,16 @@ function wpgems_remove_nofollow_internal( $content ) {
 			 */
 			$href = $processor->get_attribute( 'href' );
 			if ( str_contains( $href, 'wpgems.loc' ) ) {
-				// remove rel attribute
+				/**
+				 * Remove rel attribute
+				 *
+				 * https://developer.wordpress.org/reference/classes/wp_html_tag_processor/remove_attribute/
+				 */
+				$processor->remove_attribute( 'rel' );
 			}
 		}
 	}
 
-	return $content;
+	return $processor->get_updated_html();
 }
 add_filter( 'the_content', 'wpgems_remove_nofollow_internal' );

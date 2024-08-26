@@ -23,7 +23,15 @@ function wpgems_remove_nofollow_internal( $content ) {
 
 	// https://developer.wordpress.org/reference/classes/wp_html_tag_processor/next_tag/
 	while ( $processor->next_tag() ) {
-		// find all internal links with rel="nofollow" and remove rel attribute
+		/**
+		 * Find all links
+		 *
+		 * https://developer.wordpress.org/reference/classes/wp_html_tag_processor/get_tag/
+		 */
+		if ( 'A' === $processor->get_tag() ) {
+			// find all internal links with rel="nofollow" and remove rel attribute
+
+		}
 	}
 
 	return $content;

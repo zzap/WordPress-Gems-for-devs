@@ -8,6 +8,7 @@
         "wp-content/*.php": true,
         "wp-admin": true,
         "wp-includes": true,
+        "db": true,
         "*.php": true,
         "*.txt": true,
         "*.html": true,

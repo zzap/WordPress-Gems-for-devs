@@ -61,8 +61,8 @@ None.
 ### Examples
 
 - [The movie demo](https://wpmovies.dev/), [GitHub repo](https://github.com/WordPress/wp-movies-demo)
-- [Instant Search](https://github.com/r-chrzan/instant-search-interactivity)
 - [Countdown](https://github.com/WordPress/block-development-examples/tree/trunk/plugins/interactivity-api-countdown-3cd73e)
+- [Instant Search](https://github.com/r-chrzan/instant-search-interactivity)
 - [Todo list](https://github.com/ahsanshaheen199/interactive-todos/tree/main)
 - [Interactivity API showcase](https://github.com/WordPress/gutenberg/discussions/55642)
 

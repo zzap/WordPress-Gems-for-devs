@@ -22,7 +22,9 @@ It is built completely custom, starting with [HTML standards](https://html.spec.
 
 ### Examples
 
+- [Add and remove classes](https://developer.wordpress.org/reference/classes/wp_html_tag_processor/#modifying-css-classes-for-a-found-tag)
 - [Set aspect ratio for an iframe](https://gist.github.com/zzap/827c34cf84c5dfef0230a3315805fe3b).
+- [Test if images have size values set](https://gist.github.com/zzap/5cb8e0b798262c4d8f7ffe5a3a029933)
 - [Table of contents generator](https://github.com/WordPress/gutenberg/issues/61440#issuecomment-2107797038)
 - Tests:
     - [HTML Tag Processor functionality](https://github.com/dmsnell/wordpress-develop/blob/aad531083a2eb33a051b1c8782a6c75a6d51c8b3/tests/phpunit/tests/html/wpHtmlTagProcessor.php)

@@ -1,0 +1,22 @@
+{
+	"name": "@block-development-examples/interactivity-api-countdown-3cd73e",
+	"version": "0.1.0",
+	"description": "Countdown created with the Interactivity API",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"scripts": {
+		"build": "wp-scripts build --experimental-modules",
+		"start": "wp-scripts start --experimental-modules",
+		"plugin-zip": "wp-scripts plugin-zip"
+	},
+	"files": [
+		"*"
+	],
+	"dependencies": {
+		"@wordpress/i18n": "^4.57.0",
+		"@wordpress/icons": "^9.48.0"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^27.8.0"
+	}
+}

@@ -2,6 +2,11 @@
 
 Repository for code examples and resources used in the "WordPress gems for devs" talk.
 
+| Event  | Date | Branch | Links |
+| --- | --- | --- | --- |
+| PHP Serbia 2024 | 06 September 2024 | [conf/php-serbia-0924](https://github.com/zzap/WordPress-Gems-for-devs/tree/conf/php-serbia-0924) | [Event](https://2024.phpsrbija.rs/talk-single/6) \| [Slides](https://docs.google.com/presentation/d/1mCvIL6kunXCzDY3K5D0DNxqdSGpjRgJTs_9pdpgAVEc/edit?usp=sharing) |
+| WordUp Brighton | 03 September 2024 | [meetup/brighton-0924](https://github.com/zzap/WordPress-Gems-for-devs/tree/meetup/brighton-0924) | [Event](https://meetu.ps/e/NqgBQ/tdJYk/i) \| [Slides](https://docs.google.com/presentation/d/1mCvIL6kunXCzDY3K5D0DNxqdSGpjRgJTs_9pdpgAVEc/edit?usp=sharing) \| [Video](https://www.youtube.com/live/NGv4HBzHwnE) |
+
 ## HTML API
 
 ### What problems does it solve?

@@ -22,9 +22,13 @@ wp-content/themes/*
 
 # Plugins folder
 wp-content/plugins/*
+# Plugins that will be created
 !wp-content/plugins/wpgems/
-!wp-content/plugins/just-toggle/
-!wp-content/plugins/count-toggle/
+!wp-content/plugins/toggle/
+!wp-content/plugins/toggle-count/
+# Plugins already in repo
+!wp-content/plugins/example-interactive/
+!wp-content/plugins/example-count/
 !wp-content/plugins/instant-search-interactivity/
 !wp-content/plugins/interactive-todos/
 !wp-content/plugins/interactivity-api-countdown/

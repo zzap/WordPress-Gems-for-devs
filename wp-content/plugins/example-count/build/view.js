@@ -1,0 +1,1 @@
+import*as e from"@wordpress/interactivity";var t={d:(e,r)=>{for(var o in r)t.o(r,o)&&!t.o(e,o)&&Object.defineProperty(e,o,{enumerable:!0,get:r[o]})},o:(e,t)=>Object.prototype.hasOwnProperty.call(e,t)};const r=(a={store:()=>e.store},s={},t.d(s,a),s),{state:o}=(0,r.store)("create-block",{state:{get hasBeenOpened(){return o.timesOpened>0}}});var a,s;

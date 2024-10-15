@@ -7,6 +7,7 @@ node_modules
 # project files, wp-content and db directories
 !.gitignore
 !README.md
+!wc-skopje-2024.md
 !.vscode/
 !wp-content/
 !db/

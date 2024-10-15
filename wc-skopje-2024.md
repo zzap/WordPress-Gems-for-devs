@@ -10,7 +10,7 @@
 ## Preparation
 
 1. Install the latest WordPress in your local environment (preferably http://wpgems.loc but it can be anything else you want)
-2. Copy content of the [db/hello-world.txt](db/hello-world.txt) and paste it in Hello World post.
+2. Copy content of the [db/hello-world.txt](db/hello-world.txt) and paste it in Hello World post. If your local URL is not http://wpgems.loc, change it to what you chose.
 3. Install (if not present in your install) and activate [Twenty Twenty Two](https://wordpress.org/themes/twentytwentytwo/) theme (you can use any other theme where it's easy enough to add a snippet of CSS code).
 4. In theme's style.css add the following code:
 ```CSS

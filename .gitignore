@@ -22,3 +22,7 @@ wp-content/themes/*
 
 # Plugins folder
 wp-content/plugins/*
+!wp-content/plugins/instant-search-interactivity/
+!wp-content/plugins/interactive-todos/
+!wp-content/plugins/just-toggle/
+!wp-content/plugins/count-toggle/

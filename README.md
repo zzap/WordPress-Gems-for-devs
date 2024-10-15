@@ -25,6 +25,29 @@ It is built completely custom, starting with [HTML standards](https://html.spec.
   - [get_updated_html()](https://developer.wordpress.org/reference/classes/wp_html_tag_processor/get_updated_html/)
 - [WP_HTML_Processor](https://developer.wordpress.org/reference/classes/wp_html_processor/)
 
+<<<<<<< HEAD
+Examples:
+
+- [Table of contents generator](https://github.com/WordPress/gutenberg/issues/61440#issuecomment-2107797038)
+
+## Interactivity API
+
+Docs:
+
+-[Interactivity API Reference](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/)
+
+  - [The Reactive and Declarative mindset](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/core-concepts/the-reactive-and-declarative-mindset/)
+
+    - [List of Directives](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/api-reference/#list-of-directives)
+
+  - [Understanding global state, local context and derived state](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/core-concepts/undestanding-global-state-local-context-and-derived-state/)
+
+    - [The store](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/api-reference/#the-store)
+
+  - [Server-side rendering: Processing directives on the server](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/core-concepts/server-side-rendering/)
+
+    - [Server functions](https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/api-reference/#server-functions)
+=======
 ### Examples
 
 - [Add and remove classes](https://developer.wordpress.org/reference/classes/wp_html_tag_processor/#modifying-css-classes-for-a-found-tag)
@@ -86,3 +109,4 @@ None.
 - Laravel - [Livewire](https://livewire.laravel.com/) using AlpineJS
 - Symfony UX - [Live components](https://ux.symfony.com/live-component), primarily built on top of [Turbo](https://turbo.hotwired.dev/) and [Stimulus](https://stimulus.hotwired.dev/), which are part of the [Hotwire](https://hotwired.dev/) framework.
 - Phoenix [LiveView](https://hexdocs.pm/phoenix_live_view/welcome.html)
+>>>>>>> main

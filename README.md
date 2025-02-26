@@ -4,6 +4,7 @@ Repository for code examples and resources used in the "WordPress gems for devs"
 
 | Event  | Date | Branch | Links |
 | --- | --- | --- | --- |
+| WordCamp Asia 2025 | 21 February 2025 | [conf/wcasia-2025](https://github.com/zzap/WordPress-Gems-for-devs/tree/conf/wcasia-2025) | [Event](https://asia.wordcamp.org/2025/session/wordpress-gems-for-devs-fresh-new-features-youll-actually-want-to-use/) \| [Slides](https://docs.google.com/presentation/d/1hkWsgpQluC5J90ZhByxseSFiyt7Q7LPmPssedXnFa-Q/edit?usp=sharing) |
 | WordCamp Skopje 2024 | 19 October 2024 | [conf/WC-skopje-2024](https://github.com/zzap/WordPress-Gems-for-devs/tree/conf/WC-skopje-2024) | [Event](https://skopje.wordcamp.org/2024/session/wordpress-gems-for-devs-fresh-new-features-youll-actually-want-to-use/) \| [Slides](https://docs.google.com/presentation/d/1mCvIL6kunXCzDY3K5D0DNxqdSGpjRgJTs_9pdpgAVEc/edit?usp=sharing) |
 | PHP Serbia 2024 | 06 September 2024 | [conf/php-serbia-0924](https://github.com/zzap/WordPress-Gems-for-devs/tree/conf/php-serbia-0924) | [Event](https://2024.phpsrbija.rs/talk-single/6) \| [Slides](https://docs.google.com/presentation/d/1mCvIL6kunXCzDY3K5D0DNxqdSGpjRgJTs_9pdpgAVEc/edit?usp=sharing) |
 | WordUp Brighton | 03 September 2024 | [meetup/brighton-0924](https://github.com/zzap/WordPress-Gems-for-devs/tree/meetup/brighton-0924) | [Event](https://meetu.ps/e/NqgBQ/tdJYk/i) \| [Slides](https://docs.google.com/presentation/d/1mCvIL6kunXCzDY3K5D0DNxqdSGpjRgJTs_9pdpgAVEc/edit?usp=sharing) \| [Video](https://www.youtube.com/live/NGv4HBzHwnE) |
